@@ -5,7 +5,7 @@ function Project(props) {
     return (
         <div className={s.Project}>
             <div className={s.projectLogo} style={props.style}>
-                <a className={s.showBtn} href={props.projectUrl}>Show</a>
+                <a className={s.showBtn} href={props.projectUrl} target={'_blank'}>Show</a>
             </div>
             <div className={s.descriptionInfo}>
                 <h3 className={s.projectTitle}>{props.projectTitle}</h3>
@@ -13,6 +13,6 @@ function Project(props) {
             </div>
         </div>
     )
-};
+}
 
 export default Project;
