@@ -11,7 +11,7 @@ function Resume(props) {
                 <div className={cs.Container}>
                     <div className={s.mainContent}>
                         <BlockHeader blockHeader={'Here you can download my resume'}/>
-                        <a href="https://drive.google.com/file/d/1K8eZQWkSTqw6wwF3fERsHfjikbp5jeQ0/view?usp=sharing" className={s.customBtn} spy={true}
+                        <a href="https://drive.google.com/file/d/1C_z25fDFPr7m-KcIc_ekwdRnJaLVWeWA/view?usp=sharing" className={s.customBtn} spy={true}
                               smooth={true} offset={-50} duration={500} target="_blank" rel="noopener noreferrer">Resume</a>
                     </div>
                 </div>
